@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CALCULATOR</h1>
+    <div id="main">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3">
+            <button id="box31" onclick="clearInput()">Clear</button>
+            <button id="box32" onclick="backspace()">Backspace</button>
+        </div>
+        <div id="box4">
+            <button value="+" onclick="addToExpression(value)">+</button>
+            <button value="-" onclick="addToExpression(value)">-</button>
+            <button value="*" onclick="addToExpression(value)">*</button>
+            <button value="/" onclick="addToExpression(value)">/</button>
+            <button value="1" onclick="addToExpression(value)">1</button>
+            <button value="2" onclick="addToExpression(value)">2</button>
+            <button value="3" onclick="addToExpression(value)">3</button>
+            <button value="(" onclick="addToExpression(value)">(</button>
+            <button value="4" onclick="addToExpression(value)">4</button>
+            <button value="5" onclick="addToExpression(value)">5</button>
+            <button value="6" onclick="addToExpression(value)">6</button>
+            <button value=")" onclick="addToExpression(value)">)</button>
+            <button value="7" onclick="addToExpression(value)">7</button>
+            <button value="8" onclick="addToExpression(value)">8</button>
+            <button value="9" onclick="addToExpression(value)">9</button>
+            <button value="0" onclick="addToExpression(value)">0</button>
+        </div>
+        <button id="butt" onclick="evaluateExpression()">Evaluate</button>
+    </div>
+    <footer>&copy;Khushboo 2023</footer>
+    <script src="script.js"></script>
+ </body>
+</html>
